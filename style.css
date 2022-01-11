@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+
+.header, .hero, .footer{
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #efe7eb;
+}
+
+/* let's start with header */
+.header {
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    /* reseting ul defaults first */
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #efe7eb;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+
+section{
+    display: flex;
+    padding: 48px;
+    gap: 32px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
