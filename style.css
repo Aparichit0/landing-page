@@ -130,3 +130,23 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+/* section 3: quote*/
+.quote {
+    flex-direction: column;
+    gap: 8px;
+    padding: inherit auto;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    align-content: center;
+    align-items: normal;
+}
+.quote #author {
+    font-size: 24px;
+    text-align: right;
+    font-weight: 600;
+    padding: 0 16px 0 0;
+}
