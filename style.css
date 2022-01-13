@@ -67,10 +67,6 @@ h1 {
   /* flex: 0 1 auto; */
 }
 
-.hero p {
-  /* max-width: 30ch; */
-}
-
 button {
   color: #efe7eb;
   background-color: #3882f6;
@@ -122,13 +118,6 @@ button {
 .info .info-items .info-item p {
   text-align: center;
   max-width: fit-content;
-}
-/* footer */
-.footer {
-  padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* section 3: quote*/
