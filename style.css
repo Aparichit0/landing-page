@@ -82,18 +82,47 @@ button {
   margin-top: 8px;
 }
 
-section{
-    display: flex;
-    padding: 48px;
-    gap: 32px;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+/* section 2: information section */
+.info {
+  /* all sections are flex */
+  flex-direction: column;
+  gap: 48px;
 }
 
+.info-items {
+  display: flex;
+  gap: 24px;
+}
 
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 180px;
+}
 
+.info .info-items .info-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  flex-shrink: 0;
+  flex-basis: auto;
+  border-radius: 20px;
+  border: 5px solid #3882f6;
+}
+/* repositioning images for proper fit */
+.info .info-items .info-item img#item2 {
+  object-position: right;
+}
+.info .info-items .info-item img#item4 {
+  object-position: bottom;
+}
 
+.info .info-items .info-item p {
+  text-align: center;
+  max-width: fit-content;
+}
 /* footer */
 .footer{
     display: flex;
