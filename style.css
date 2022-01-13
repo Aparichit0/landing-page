@@ -124,8 +124,9 @@ button {
   max-width: fit-content;
 }
 /* footer */
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
