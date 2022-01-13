@@ -139,3 +139,45 @@ button {
     font-weight: 600;
     padding: 0 16px 0 0;
 }
+
+/* section 4: sign-up now */
+.contact {
+    padding: 24px 32px;
+    align-items: normal;
+    padding: inherit;
+}
+
+.contact .signUpBox {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 32px 48px;
+    /* margin: 48px 96px; */
+    color: #efe7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    max-width: 60%;
+    margin: 48px;
+    flex-grow: 1;
+}
+
+.contact .signUpBox h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.contact .signUpBox button {
+    border: 2px solid;
+    color: #f9faf8;
+}
+
+/* footer */
+.footer {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
